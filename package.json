@@ -1,0 +1,33 @@
+{
+  "name": "115open",
+  "version": "1.0.0",
+  "description": "115开放平台 JS/TS SDK，支持 Node.js、Vue、React。中英文注释，单元测试，CI集成。115 Open Platform JS/TS SDK for Node.js, Vue, React. With Chinese/English comments, unit tests, CI integration.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src --ext .ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dustink66/115open-js-sdk.git"
+  },
+  "author": "尘墨成 (dustink) <dustink@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
+  "dependencies": {
+    "@types/axios": "^0.14.4",
+    "axios": "^1.10.0"
+  }
+}
