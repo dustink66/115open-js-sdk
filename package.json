@@ -1,6 +1,6 @@
 {
   "name": "115open",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "115开放平台 JS/TS SDK，支持 Node.js、Vue、React。中英文注释，单元测试，CI集成。115 Open Platform JS/TS SDK for Node.js, Vue, React. With Chinese/English comments, unit tests, CI integration.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
